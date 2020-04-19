@@ -1,14 +1,15 @@
 # artsonia-autovoter
 
-Python application that automates voting for an artist entry on Artsonia.
+Python application that automates voting for an artist entry on Artsonia using [selenium](https://pypi.org/project/selenium/).
 
-This is my first foray into real Python development.
+This project uses [pipenv](https://github.com/pypa/pipenv) to manage the virtual environment and dependencies, and [pylint](https://www.pylint.org/) for code quality.
 
 ## Getting Started
 
 ### Requirements
 
-* Python 3.8
+* [Python 3.8](https://www.python.org/downloads/) or higher
+* [pipenv](https://github.com/pypa/pipenv)
 
 ### Steps
 
@@ -25,18 +26,18 @@ Run the program:
 
 ## Setup
 
-The following are the steps I used to create this project.
+For posterity, the following are the steps I used to create this project.
 
 Verify pipenv is installed:  
 `> pipenv --version`
 
-If not, install it (I installed it globally, it works fine):  
+If not, install it globally:  
 `> pip install pipenv`
 
-Or install it for the local user only if you wish:  
+**OR** install it for the local user only if you wish  (I installed it globally, it works fine):  
 `> pip install --user pipenv`
 
-If you install pipenv for the local user only, add it to PATH for this session. Example for Python 3.8.
+**NOTE:** If you install pipenv for the local user only, add it to PATH for this session. Example for Python 3.8.
 Make it permanent by adding it to your PowerShell profile:  
 `> $env:Path += ";$env:APPDATA\Python\Python38\Scripts"`
 
@@ -46,7 +47,7 @@ Verify pipenv is in the PATH:
 Now we're ready to work in the project:  
 `> cd artsonia-autovoter`
 
-Initialize the project, which will create a Pipfile and Pipfile.lock, and install selenium and pylint as dev dependencies into the $PROJECT/.virtualenv folder:  
+Initialize the project, which will create a Pipfile and Pipfile.lock, and install [selenium](https://pypi.org/project/selenium/) and [pylint](https://www.pylint.org/) as dev dependencies into the $PROJECT/.virtualenv folder:  
 `> pipenv install --dev selenium pylint`
 
 Run it:  
