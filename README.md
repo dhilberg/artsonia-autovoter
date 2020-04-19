@@ -1,6 +1,6 @@
 # artsonia-autovoter
 
-Python application that automates voting for an artist entry on Artsonia using [selenium](https://pypi.org/project/selenium/).
+Python application that automates voting for an artist entry on Artsonia using [Selenium](https://pypi.org/project/selenium/).
 
 This project uses [pipenv](https://github.com/pypa/pipenv) to manage the virtual environment and dependencies, and [pylint](https://www.pylint.org/) for code quality.
 
@@ -47,7 +47,7 @@ Verify pipenv is in the PATH:
 Now we're ready to work in the project:  
 `> cd artsonia-autovoter`
 
-Initialize the project, which will create a Pipfile and Pipfile.lock, and install [selenium](https://pypi.org/project/selenium/) and [pylint](https://www.pylint.org/) as dev dependencies into the $PROJECT/.virtualenv folder:  
+Initialize the project, which will create a Pipfile and Pipfile.lock, and install [Selenium](https://pypi.org/project/selenium/) and [pylint](https://www.pylint.org/) as dev dependencies into the $PROJECT/.virtualenv folder:  
 `> pipenv install --dev selenium pylint`
 
 Run it:  
