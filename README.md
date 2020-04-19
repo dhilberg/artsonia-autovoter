@@ -9,7 +9,7 @@ This project uses [pipenv](https://github.com/pypa/pipenv) to manage the virtual
 ### Requirements
 
 * [Python 3.8](https://www.python.org/downloads/) or higher
-* [pipenv](https://github.com/pypa/pipenv)
+* [pipenv](https://github.com/pypa/pipenv) 2018.10.9 or higher to support the [.venv file feature](https://github.com/pypa/pipenv/issues/796#issuecomment-429421408)
 
 ### Steps
 
