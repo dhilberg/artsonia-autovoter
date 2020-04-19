@@ -113,7 +113,6 @@ dmypy.json
 
 ### VisualStudioCode ###
 .vscode/*
-# Normally you'd include the workspace settings for the project. But when using pipenv with VS Code, it includes the virtualenv in the path, which of course is user-specific. So it's excluded here.
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
