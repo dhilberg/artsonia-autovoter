@@ -14,43 +14,40 @@ This is my first foray into real Python development.
 
 Clone this repo. Then:
 
-Switch to the project directory:
+Switch to the project directory:  
 `> cd artsonia-autovoter`
 
-Install the environment and dependencies:
+Install the environment and dependencies:  
 `> pipenv install --dev`
 
-Run the program:
+Run the program:  
 `> pipenv run python vote.py`
-```
 
 ## Setup
 
 The following are the steps I used to create this project.
 
-```powershell
-# Verify pipenv is installed
-> pipenv --version
+Verify pipenv is installed:  
+`> pipenv --version`
 
-# If not, install it (I installed it globally, it works fine)
-> pip install pipenv
+If not, install it (I installed it globally, it works fine):  
+`> pip install pipenv`
 
-# Or install it for the local user only if you wish
-> pip install --user pipenv
+Or install it for the local user only if you wish:  
+`> pip install --user pipenv`
 
-# If you install pipenv for the local user only, add it to PATH for this session. Example for Python 3.8.
-# Make it permanent by adding it to your PowerShell profile.
-> $env:Path += ";$env:APPDATA\Python\Python38\Scripts"
+If you install pipenv for the local user only, add it to PATH for this session. Example for Python 3.8.
+Make it permanent by adding it to your PowerShell profile:  
+`> $env:Path += ";$env:APPDATA\Python\Python38\Scripts"`
 
-# Verify pipenv is in the PATH
-> pipenv --version
+Verify pipenv is in the PATH:  
+`> pipenv --version`
 
-# Now we're ready to work in the project
-> cd artsonia-autovoter
+Now we're ready to work in the project:  
+`> cd artsonia-autovoter`
 
-# Initialize the project, which will create a Pipfile and Pipfile.lock, and install selenium and pylint as dev dependencies into the $PROJECT/.virtualenv folder
-> pipenv install --dev selenium pylint
+Initialize the project, which will create a Pipfile and Pipfile.lock, and install selenium and pylint as dev dependencies into the $PROJECT/.virtualenv folder:  
+`> pipenv install --dev selenium pylint`
 
-# Run it
-> pipenv run python vote.py
-```
+Run it:  
+`> pipenv run python vote.py`
