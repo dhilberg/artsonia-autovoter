@@ -21,7 +21,9 @@ max_count = 6
 while count < max_count:
     print(f'Vote attempt {count} of {max_count - 1}')
 
+    # Artsonia uses cookies to track your voting. Deleting the cookies allows you to re-vote.
     browser.delete_all_cookies()
+
     browser.get('http://www.artsonia.com/aotw/vote/fan-direct/84806714')
     browser.find_element_by_id('BtnVote_84806714').click()
     count += 1
