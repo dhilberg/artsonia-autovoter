@@ -1,6 +1,8 @@
 # artsonia-autovoter
 
-Python application that automates voting for an artist entry on Artsonia using [Selenium](https://pypi.org/project/selenium/).
+Python application that automates voting for an artist entry on [Artsonia](https://www.artsonia.com/) using [Selenium](https://pypi.org/project/selenium/).
+
+Note that this application no longer works as-is, due to the entry ID in the URL no longer being active.
 
 This project uses [pipenv](https://github.com/pypa/pipenv) to manage the virtual environment and dependencies, and [pylint](https://www.pylint.org/) for code quality.
 
